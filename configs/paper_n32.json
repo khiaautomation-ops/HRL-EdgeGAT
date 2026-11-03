@@ -1,0 +1,29 @@
+{
+  "_comment": "Density study (Fig. 3b): 32 RABS, 4 GMEC, 2 LEO.",
+  "env": {
+    "num_rabs": 32,
+    "num_gmec": 4,
+    "num_leo": 2,
+    "area_size": [1000, 1000],
+    "max_time_steps": 60,
+    "lambda_task": 2.0,
+    "B_max": 500.0,
+    "Q_max": 20,
+    "hidden_size": 128,
+    "seed": 42,
+    "eta_min": 0.05,
+    "C_min": 1.0
+  },
+  "train": {
+    "num_episodes": 3000,
+    "gnn_hidden": 128,
+    "num_heads": 2,
+    "lr_offload": 0.0003,
+    "lr_deploy": 0.001,
+    "gamma": 0.99,
+    "ppo_epochs": 4,
+    "clip_eps": 0.2,
+    "relocation_epoch": 3600,
+    "decay_rate": 0.997
+  }
+}
