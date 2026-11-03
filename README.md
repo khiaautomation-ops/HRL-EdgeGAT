@@ -32,7 +32,7 @@ tests/
 The experiments were run with Python 3.12 on a Google Colab CPU runtime.
 
 ```bash
-git clone https://github.com/<your-username>/HRL-EdgeGAT.git
+git clone https://github.com/khiaautomation-ops/HRL-EdgeGAT.git
 cd HRL-EdgeGAT
 
 pip install torch==2.4.0 --index-url https://download.pytorch.org/whl/cpu
